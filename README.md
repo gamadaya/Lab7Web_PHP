@@ -115,7 +115,7 @@ echo "Predikat: " . $predikat;
 
 **Capture hasil di browser**
 
-![Hasil Latihan 2 di browser](screenshots/latihan-2-hasil.png)
+![Hasil Latihan 2 di browser](lab7_php/screenshots/latihan-2-hasil.png)
 
 #### Latihan 3 — Perulangan dan array
 
@@ -132,7 +132,7 @@ echo "</ol>";
 
 **Capture hasil di browser**
 
-![Hasil Latihan 3 di browser](screenshots/latihan-3-hasil.png)
+![Hasil Latihan 3 di browser](/screenshots/latihan-3-hasil.png)
 
 #### Latihan 4 — Membuat fungsi
 
