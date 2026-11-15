@@ -85,7 +85,7 @@ echo "<p>Waktu server: " . date("d-m-Y H:i:s") . "</p>";
 
 **Capture hasil di browser**
 
-![Hasil Latihan 1 di browser](./screenshots/latihan-1-hasil.png)
+![Hasil Latihan 1 di browser](lab7_php/screenshots/latihan-1-hasil.png)
 
 #### Latihan 2 — Variabel, operator, dan percabangan
 
