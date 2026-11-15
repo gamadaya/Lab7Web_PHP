@@ -50,10 +50,10 @@ Proyek ini berisi latihan dasar PHP untuk menampilkan konten dinamis, mengolah v
 
 ```text
 lab7_php/
-├── README.md       # Panduan proyek dan ringkasan tiap latihan
 ├── index.php       # Kumpulan latihan dasar PHP dan formulir
 ├── test.php        # Formulir, validasi, dan ringkasan data mahasiswa
-└── screenshots/    # Folder untuk capture hasil di browser (ditambahkan sendiri)
+└── screenshots/    # Folder untuk capture hasil di browser (ditambahkan sendiri
+README.md           # Panduan proyek dan ringkasan tiap latihan
 ```
 
 ## Ringkasan hasil
@@ -85,7 +85,7 @@ echo "<p>Waktu server: " . date("d-m-Y H:i:s") . "</p>";
 
 **Capture hasil di browser**
 
-![Hasil Latihan 1 di browser](screenshots/latihan-1-hasil.png)
+![Hasil Latihan 1 di browser](./screenshots/latihan-1-hasil.png)
 
 #### Latihan 2 — Variabel, operator, dan percabangan
 
