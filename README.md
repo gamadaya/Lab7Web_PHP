@@ -222,6 +222,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 **Capture hasil di browser**
 
 ![Hasil Latihan 6 di browser](screenshots/latihan-6-hasil.png)
+![Hasil Latihan 6 di browser](screenshots/latihan-6(2)-hasil.png)
+![Hasil Latihan 6 di browser](screenshots/latihan-6(3)-hasil.png)
 
 #### Latihan 7 — Pengolahan data sederhana
 
@@ -268,6 +270,7 @@ if (isset($error)) {
 **Capture hasil di browser**
 
 ![Hasil Latihan 7 di browser](screenshots/latihan-7-hasil.png)
+![Hasil Latihan 7 di browser](screenshots/latihan-7(2)-hasil.png)
 
 ### `test.php` — Formulir data mahasiswa
 
@@ -402,7 +405,6 @@ function formatRupiah($harga)
 echo "Harga: " . formatRupiah(150000);
 ```
 
-![Hasil eksperimen format Rupiah di browser](screenshots/eksperimen-3-hasil.png)
 
 ### 4. Memvalidasi NIM berupa angka dengan panjang yang ditentukan
 
@@ -414,20 +416,15 @@ if (!ctype_digit($nim) || strlen($nim) !== 10) {
 }
 ```
 
-Pada `test.php`, validasi ini sudah diterapkan di sisi server.
-
-![Hasil eksperimen validasi NIM di browser](screenshots/eksperimen-4-hasil.png)
-
 ### 5. Menambahkan tombol reset dan membedakannya dari pemrosesan server
 
-Form `test.php` sudah memiliki tombol reset. Tombol reset mengembalikan input ke nilai awal yang ditentukan oleh HTML pada halaman saat ini. Tombol ini tidak mengirimkan formulir dan tidak menjalankan ulang pemrosesan PHP. Sebaliknya, tombol submit mengirim permintaan ke server, sehingga PHP memvalidasi dan memproses input kembali.
+Tombol reset mengembalikan input ke nilai awal yang ditentukan oleh HTML pada halaman saat ini. Tombol ini tidak mengirimkan formulir dan tidak menjalankan ulang pemrosesan PHP. Sebaliknya, tombol submit mengirim permintaan ke server, sehingga PHP memvalidasi dan memproses input kembali.
 
 ```html
 <button type="submit">Kirim Data</button>
 <button type="reset">Reset Form</button>
 ```
 
-![Hasil eksperimen tombol reset di browser](screenshots/eksperimen-5-hasil.png)
 
 ## H. Pertanyaan Evaluasi
 
