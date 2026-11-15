@@ -344,10 +344,6 @@ if (!$error) {
 
 ![Hasil formulir mahasiswa di browser](lab7_php/screenshots/formulir-mahasiswa-hasil.png)
 
-### Menambahkan capture
-
-Ambil capture hasil setiap latihan di browser dan simpan sebagai file `.png` dengan nama yang tercantum di atas ke dalam folder `screenshots/`. Ringkasan tiap latihan juga menyertakan cuplikan kode PHP dalam code block.
-
 > Data formulir hanya diproses dan ditampilkan selama permintaan berlangsung; proyek ini belum menyimpan data ke database.
 
 ## G. Eksperimen Mandiri
