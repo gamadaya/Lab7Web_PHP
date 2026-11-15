@@ -132,7 +132,7 @@ echo "</ol>";
 
 **Capture hasil di browser**
 
-![Hasil Latihan 3 di browser](/screenshots/latihan-3-hasil.png)
+![Hasil Latihan 3 di browser](lab7_php/screenshots/latihan-3-hasil.png)
 
 #### Latihan 4 — Membuat fungsi
 
@@ -161,7 +161,7 @@ echo "Luas Persegi Panjang: " . $luas;
 
 **Capture hasil di browser**
 
-![Hasil Latihan 4 di browser](screenshots/latihan-4-hasil.png)
+![Hasil Latihan 4 di browser](lab7_php/screenshots/latihan-4-hasil.png)
 
 #### Latihan 5 — Memproses formulir dengan GET
 
@@ -186,7 +186,7 @@ if (isset($_GET["kata"])) {
 
 **Capture hasil di browser**
 
-![Hasil Latihan 5 di browser](screenshots/latihan-5-hasil.png)
+![Hasil Latihan 5 di browser](lab7_php/screenshots/latihan-5-hasil.png)
 
 #### Latihan 6 — Memproses formulir dengan POST
 
@@ -221,9 +221,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 **Capture hasil di browser**
 
-![Hasil Latihan 6 di browser](screenshots/latihan-6-hasil.png)
-![Hasil Latihan 6 di browser](screenshots/latihan-6(2)-hasil.png)
-![Hasil Latihan 6 di browser](screenshots/latihan-6(3)-hasil.png)
+![Hasil Latihan 6 di browser](lab7_php/screenshots/latihan-6-hasil.png)
+![Hasil Latihan 6 di browser](lab7_php/screenshots/latihan-6(2)-hasil.png)
+![Hasil Latihan 6 di browser](lab7_php/screenshots/latihan-6(3)-hasil.png)
 
 #### Latihan 7 — Pengolahan data sederhana
 
@@ -269,8 +269,8 @@ if (isset($error)) {
 
 **Capture hasil di browser**
 
-![Hasil Latihan 7 di browser](screenshots/latihan-7-hasil.png)
-![Hasil Latihan 7 di browser](screenshots/latihan-7(2)-hasil.png)
+![Hasil Latihan 7 di browser](lab7_php/screenshots/latihan-7-hasil.png)
+![Hasil Latihan 7 di browser](lab7_php/screenshots/latihan-7(2)-hasil.png)
 
 ### `test.php` — Formulir data mahasiswa
 
@@ -342,7 +342,7 @@ if (!$error) {
 
 **Capture hasil di browser**
 
-![Hasil formulir mahasiswa di browser](screenshots/formulir-mahasiswa-hasil.png)
+![Hasil formulir mahasiswa di browser](lab7_php/screenshots/formulir-mahasiswa-hasil.png)
 
 ### Menambahkan capture
 
@@ -363,7 +363,7 @@ $nilaiRataRata = ($tugas + $uts + $uas) / 3;
 echo "Nilai rata-rata: " . number_format($nilaiRataRata, 2) . "<br>";
 ```
 
-![Hasil eksperimen rata-rata di browser](screenshots/eksperimen-1-hasil.png)
+![Hasil eksperimen rata-rata di browser](lab7_php/screenshots/eksperimen-1-hasil.png)
 
 ### 2. Mengubah pencarian GET agar mencari nama dari array
 
@@ -390,7 +390,7 @@ if ($kata !== "") {
 
 Form GET pada Latihan 5 dapat digunakan kembali untuk mengirimkan kata kunci pencarian.
 
-![Hasil eksperimen pencarian di browser](screenshots/eksperimen-2-hasil.png)
+![Hasil eksperimen pencarian di browser](lab7_php/screenshots/eksperimen-2-hasil.png)
 
 ### 3. Membuat function untuk memformat harga Rupiah
 
